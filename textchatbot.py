@@ -5,7 +5,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QLineEdit,
                              QPushButton, QVBoxLayout, QWidget, QLabel,
                              QScrollArea, QSizePolicy, QHBoxLayout)
-client = OpenAI(api_key="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")
+client = OpenAI()
 
 class ChatBubble(QWidget):
     def __init__(self, text, is_user, title):

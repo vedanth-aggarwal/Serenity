@@ -15,8 +15,7 @@ from PyQt5.QtGui import QMovie, QPixmap, QImage
 os.environ['QT_MAC_WANTS_LAYER'] = '1'
 
 # Set your OpenAI API key here
-client = OpenAI(api_key="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")
-
+client = OpenAI()
 # Ambient music file (ensure the file exists and is in .wav format)
 AMBIENT_MUSIC = "ambient_music.wav"
 
