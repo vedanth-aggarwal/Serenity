@@ -1,0 +1,87 @@
+QScrollArea {
+    border: none;
+    border-radius: 10px;
+    background-color: #1E1E1E;
+}
+
+QScrollBar:vertical {
+    background: #1E1E1E;
+    width: 15px;
+    margin: 22px 0 22px 0;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical {
+    background: #C183FF;  /* primary_color */
+    min-height: 20px;
+    border-radius: 5px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #A56ACC;  /* hover_color */
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #8656A0;  /* pressed_color */
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: #1E1E1E;
+    height: 20px;
+    subcontrol-origin: margin;
+    border-radius: 5px;
+}
+
+QLineEdit {
+    border: 2px solid #1E1E1E;
+    border-radius: 10px;
+    padding: 0 8px;
+    background: #1E1E1E;
+    color: white;  /* Set text color */
+}
+
+QPushButton {
+    background-color: #C183FF;  /* primary_color */
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #C183FF;  /* primary_color */
+    padding: 5px;
+    font-size: 13px;
+}
+
+QPushButton:hover {
+    border-color: #A56ACC;  /* hover_color */
+    background-color: #A56ACC;  /* hover_color */
+}
+
+QPushButton:pressed {
+    border-color: #8656A0;  /* pressed_color */
+    background-color: #8656A0;  /* pressed_color */
+    border-style: inset;
+}
+
+QLabel.title {
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: white;  /* Color for the title */
+}
+
+QLabel.bot-bubble {
+    color: #5E2D91;
+    border: 1px solid #E8D8FF;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: #E8D8FF;  /* Background color for bot response bubbles */
+}
+
+QLabel.user-bubble {
+    color: #333333;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: #FFFFFF;  /* Background color for user input bubbles */
+}
